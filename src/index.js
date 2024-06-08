@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom/client';
 import Nav from './navbar/navbar.jsx';
 import About from './about/about.jsx';
 import Offers from './offers/offers.jsx';
-import '../src/App.css';
+import Contact from './contact/contact.jsx';
+
+
+import './App.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +15,7 @@ root.render(
     <Nav />
     <About/>
     <Offers/>
+    <Contact/>
   </React.StrictMode>
 );
 
